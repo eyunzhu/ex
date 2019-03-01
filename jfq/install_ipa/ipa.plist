@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>items</key>
+    <array>
+      <dict>
+        <key>assets</key>
+        <array>
+          <dict>
+            <key>kind</key>
+            <string>software-package</string>
+            <key>url</key>
+            <string><![CDATA[https://publiceyunzhu.oss-cn-beijing.aliyuncs.com/langdie/83dbe87d0514c5733f025c53fe364b25-resigned-bak.ipa]]></string>
+          </dict>
+        </array>
+        <key>metadata</key>
+        <dict>
+          <key>bundle-identifier</key>
+          <string>com.langdie.jfq</string>
+          <key>bundle-version</key>
+          <string><![CDATA[1.1.0]]></string>
+          <key>kind</key>
+          <string>software</string>
+          <key>title</key>
+          <string><![CDATA[共享赚赚]]></string>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>
