@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>console.log的花样使用</title>
+	</head>
+	<body>
+		<div>
+			请使用电脑打开，F12开发者模式，查看控制台输出
+		</div>
+		<script>
+			console.log('%c欢迎使用 %c影视全搜索 http://v.eyunzhu.com ', '', 'color:#ff8400;');
+			console.group('忆云竹');
+			console.log('忆云竹 %c技术教程,资源分享 http://eyunzhu.com', 'color:#ff8400');
+			console.log('小淘券 %c淘宝内部优惠券 http://tb.eyunzhu.com', 'color:#ff8400');
+			console.log('影视全搜索 %c全网影视检索，你要的这都有 http://v.eyunzhu.com', 'color:#ff8400');
+			console.groupEnd('忆云竹');
+
+			console.group('更多资源');
+			console.log('关注微信公众号：小白资源分享');
+			console.log('关注微信公众号：古图');
+			console.groupEnd('更多资源');
+			//console.log('%c ','background-image:url("https://eyunzhu.com/wp-content/uploads/2018/06/logo2.png");background-size:100% 100%;background-repeat:no-repeat;background-position:center center;line-height:0px;padding:30px 110px;');
+
+			/*--------- 我是一个瘦瘦的分割线 ---------*/
+			console.log('发送以下命令获取资源:%c电影 %c、%c博客', 'color:red', 'color:#000', 'color:blue')
+			Object.defineProperty(window, '电影', {
+				get() {
+					return 'http://v.eyunzhu.com'
+				}
+			})
+			Object.defineProperty(window, '博客', {
+				get() {
+					return 'http://eyunzhu.com'
+				}
+			})
+		</script>
+	</body>
+</html>
